@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresh Check App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app-container">
+<!-- Header -->
+<header class="app-header">
+  <div class="logo">
+    <img src="img/logo.png" alt="Fresh Check Logo" class="logo-img">
+    <span class="logo-text">Fresh Check</span>
+  </div>
+  <div class="header-actions">
+    <button class="menu-btn material-icons">notifications</button>
+    <button class="menu-btn material-icons">account_circle</button>
+  </div>
+</header>
+
+    
+
+    <!-- Main Content -->
+    <main class="app-main">
+      <!-- Hero / Scan QR -->
+      <section class="hero-card">
+         <img src="img/logo.png" alt="Fresh Check Logo" class="logo-img1">
+        <h2>Welcome Back 👋</h2>
+        <p>Scan QR codes to track your products and expiry dates</p>
+        <button class="primary-btn">
+          <span class="material-icons">qr_code_scanner</span>
+          Scan QR
+        </button>
+      </section>
+
+      <!-- Stats -->
+      <section class="stats-grid">
+        <div class="stat-card">
+          <span class="material-icons">warning</span>
+          <h3>3</h3>
+          <p>Expiring Soon</p>
+        </div>
+        <div class="stat-card">
+          <span class="material-icons">inventory_2</span>
+          <h3>12</h3>
+          <p>Total Products</p>
+        </div>
+        <div class="stat-card">
+          <span class="material-icons">restaurant_menu</span>
+          <h3>5</h3>
+          <p>Suggested Recipes</p>
+        </div>
+      </section>
+
+      <!-- Quick Actions -->
+      <section class="quick-actions">
+        <h3>Quick Actions</h3>
+        <div class="actions-grid">
+          <button class="action-btn"><span class="material-icons">add</span> Add Product</button>
+          <button class="action-btn"><span class="material-icons">event</span> Calendar</button>
+          <button class="action-btn"><span class="material-icons">bar_chart</span> Reports</button>
+          <button class="action-btn"><span class="material-icons">restaurant</span> Recipes</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Bottom Navigation -->
+    <footer class="bottom-nav">
+      <a href="#" class="nav-item active">
+        <span class="material-icons">home</span>
+        <span>Home</span>
+      </a>
+      <a href="#" class="nav-item">
+        <span class="material-icons">qr_code_scanner</span>
+        <span>Scan</span>
+      </a>
+      <a href="#" class="nav-item">
+        <span class="material-icons">restaurant</span>
+        <span>Food</span>
+      </a>
+      <a href="#" class="nav-item">
+        <span class="material-icons">account_circle</span>
+        <span>Profile</span>
+      </a>
+    </footer>
+
+  </div>
+</body>
+</html>
